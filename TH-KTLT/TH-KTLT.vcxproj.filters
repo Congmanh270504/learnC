@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Arrray">
+      <UniqueIdentifier>{5d71f41b-59b4-401c-b431-bf793b552daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ArraySV">
+      <UniqueIdentifier>{f54f7471-398d-4d10-955f-6901e1e941ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FracArray">
+      <UniqueIdentifier>{7d25ae3f-5bd2-4625-9409-f79c6ebb1a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Customer">
+      <UniqueIdentifier>{627c84a1-39b2-4784-ba38-adb5738ebde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MixedArray">
+      <UniqueIdentifier>{f64e8b95-7234-4210-8a52-25ad29a6a7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arrray\Array2D">
+      <UniqueIdentifier>{4342d401-3897-4cf3-8ce1-8335a5c3822c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arrray\Array1D">
+      <UniqueIdentifier>{c08ce5fa-3b9e-4bdc-a2e4-8af0dfa1b32d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{4d2bbdad-7752-46bc-b940-623c7d9c1289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arrray\Array2D\Square">
+      <UniqueIdentifier>{be069d28-2ff8-4a94-af8c-79d90bff8311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arrray\Array2D\Nomal">
+      <UniqueIdentifier>{93df77ac-8679-4143-9c9c-eb6d5bb9c0e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MangSV\Mang1Chieu_SV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhanSo\PhanSo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer\CustomerList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MixedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\Array2D\Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\Array1D\Mang1ChieuSoNguyen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MangSV\mainMang1Chieu_Sv.cpp">
+      <Filter>Source Files\ArraySV</Filter>
+    </ClCompile>
+    <ClCompile Include="MangSV\Mang1Chieu_SV.cpp">
+      <Filter>Source Files\ArraySV</Filter>
+    </ClCompile>
+    <ClCompile Include="PhanSo\mainPhanSo.cpp">
+      <Filter>Source Files\FracArray</Filter>
+    </ClCompile>
+    <ClCompile Include="PhanSo\PhanSo.cpp">
+      <Filter>Source Files\FracArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer\CustomerList.cpp">
+      <Filter>Source Files\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer\mainCustomerList.cpp">
+      <Filter>Source Files\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="MixedArray.cpp">
+      <Filter>Source Files\MixedArray</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMixedArray.cpp">
+      <Filter>Source Files\MixedArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array1D\mainMang1ChieuSoNguyen.cpp">
+      <Filter>Source Files\Arrray\Array1D</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array1D\Mang1ChieuSoNguyen.cpp">
+      <Filter>Source Files\Arrray\Array1D</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String\String.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\mainString.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array2D\Array2D.cpp">
+      <Filter>Source Files\Arrray\Array2D\Nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array2D\mainArray2D.cpp">
+      <Filter>Source Files\Arrray\Array2D\Nomal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

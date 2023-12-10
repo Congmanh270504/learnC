@@ -1,0 +1,11 @@
+STT  MSSV         HO         TEN LOT              TEN        DIEM TB   
+1    2022011234  Nguyen     Tat Thanh         Cang               6.75      
+2    2001222196  Tran       My                Duyen              9.80      
+3    2022015821  Tran       Le Hoang          Ha                 8.43      
+4    2022019125  Ta         Nhu               Ha                 7.73      
+5    2022013932  Bach       Thu               Ha                 6.15      
+6    2001222596  Tran       Cong              Manh               7.80      
+7    2022012827  Duong      Tan               Quy                7.50      
+8    2022017124  Nguyen     Minh              Son                8.80      
+9    2022022244  Cao        Hoang             Tan                7.35      
+10   2010511465  Phan       Ngoc              Thach              8.90      

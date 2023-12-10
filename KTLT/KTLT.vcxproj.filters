@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{5cd81046-b1a9-40b6-ab80-4e6df7f932df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array1D">
+      <UniqueIdentifier>{bf6013ef-9409-43ac-9e10-c4e207afec69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array2D">
+      <UniqueIdentifier>{b8967aec-e65f-47f6-b327-3d0bd96946fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array2D\Square">
+      <UniqueIdentifier>{f3c4c607-6930-46f5-9064-e8fdb96a637b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array2D\Nomal">
+      <UniqueIdentifier>{f4e054b1-b471-478a-a2ee-9dbcbdf51f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{153ca4e7-6196-44b9-9bcb-5fe15acfcf44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Fraction">
+      <UniqueIdentifier>{00baded5-e62e-4c36-9e7c-af8389491ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Mixed">
+      <UniqueIdentifier>{0f7138fc-0afc-415c-95e8-27630d20a5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{e4f8757d-d140-4b9d-8fa2-342de80aa58c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="String.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array1D\mainArray1D.cpp">
+      <Filter>Source Files\Array\Array1D</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array1D\Array1D.cpp">
+      <Filter>Source Files\Array\Array1D</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array2D\Nomal\mainArray2D.cpp">
+      <Filter>Source Files\Array\Array2D\Nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Array2D\Nomal\Array2D.cpp">
+      <Filter>Source Files\Array\Array2D\Nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Fraction\mainFraction.cpp">
+      <Filter>Source Files\Array\Fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Fraction\Fraction.cpp">
+      <Filter>Source Files\Array\Fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Mixed\mainMixedArray.cpp">
+      <Filter>Source Files\Array\Mixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\Mixed\MixedArray.cpp">
+      <Filter>Source Files\Array\Mixed</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array\Array2D\Nomal\Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\Fraction\PhanSo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\Mixed\MixedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\Array1D\Array1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
