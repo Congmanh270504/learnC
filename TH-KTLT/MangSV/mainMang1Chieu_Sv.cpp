@@ -11,7 +11,7 @@ int main()
 	{
 		menu();
 		printf("Nhap lua chon bai muon lam: ");
-		scanf("%d", &luachon);
+		scanf("%d", &luachon);//
 		fixScanf();
 		if (luachon < 0 || luachon>10)
 		{
