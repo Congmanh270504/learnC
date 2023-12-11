@@ -57,6 +57,8 @@
 //void readInfor(FILE*& fi, Obj& a)
 //{
 //	fscanf(fi, "%[^#]%*c%[^#]%*c%[^#]%*c%[^#]%*c%f#%[^\n]%*c", &a.MSSV, &a.ho, &a.tenlot, &a.ten, &a.diemTB, &a.gioitinh);
+//	fscanf(fi, "%[^#]%*c%[^#]%*c%[^#]%*c%[^#]%*c%f  #%[^#]%*c  %[^\n]%*c", &a.MSSV, &a.ho, &a.tenlot, &a.ten, &a.diemTB, &a.gioitinh);
+	//											   truoc do la so nen # cai %[^\n]% doc den ki tu \n 
 //}
 //void writeInfor(FILE*& fo, Obj& a)// fo=file output
 //{
