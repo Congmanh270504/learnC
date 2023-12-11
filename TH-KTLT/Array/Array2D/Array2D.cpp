@@ -233,3 +233,16 @@
 //	}
 //	delete a;
 //}
+//void ziczac(int **&a, int &m, int &n)
+//{
+//	int sum = m*n;
+//	int result1, result2;
+//	for (int i = 0; i < sum - 1; i++)
+//	{
+//		for (int j = i + 1; j < sum; j++)
+//		if (a[i / n][i%n]>a[j / n][j%n])
+//		{
+//			swap(a[i / n][i%n], a[j / n][j%n]);
+//		}
+//	}
+//}
