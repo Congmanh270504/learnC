@@ -1,13 +1,16 @@
-//#include "Mang1ChieuSoNguyen.h"
+//#include "Array1d.h"
 //int main()
 //{
-//	const char *filename = "MangSoNguyen.txt";
-//	int *a = NULL, n, luachon, x, k, result;
+//	const char* filename = "MangSoNguyen.txt";
+//	int* a = NULL, n, luachon = -1, x, k, result;
 //	menu();
 //	do
 //	{
 //		printf("Nhap lua chon bai muon lam: ");
-//		scanf("%d", &luachon);
+//		//scanf("%d", &luachon);
+//		if (!scanf("%d", &luachon))
+//			luachon = -1;
+//		fixScanf();
 //		switch (luachon)
 //		{
 //		case 1:
@@ -195,9 +198,9 @@
 //			printf("\tHave a nice day sir!!");
 //			return 0;
 //		default:
-//			printf("Khong co su lua chon do!! ");
+//			printf("Khong co su lua chon do!!\n");
 //			break;
 //		}
-//	} while (luachon >= 0 && luachon <= 20);
+//	} while (luachon != 0);
 //	_getch();
 //}

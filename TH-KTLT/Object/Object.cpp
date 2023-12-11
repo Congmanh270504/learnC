@@ -1,4 +1,4 @@
-#include"Mang1Chieu_SV.h"
+#include"Object.h"
 void deleteEndLine(char s[])
 {
 	size_t len = strlen(s);
@@ -15,13 +15,10 @@ void fixScanf()
 void menu() {
 	printf("\n");
 	printf("***************************Menu****************************\n");
-	printf("* 1.Nhap danh sach sinh vien                              *\n");
-	printf("* 2.Load danh sach sinh vien                              *\n");
-	printf("* 3.Xem danh sach sinh vien                               *\n");
-	printf("* 4.Sap xep SV theo ten                                   *\n");
-	printf("* 5.Tim SV theo MSSV (Tuyen tinh)                         *\n");
-	printf("* 6.Tim SV theo ten (Tuyen tinh)                          *\n");
-	printf("* 7.Tim SV theo ten (Nhi phan)                            *\n");
+	printf("* 1.Nhap danh sach doi tuong                              *\n");
+	printf("* 2.Doc File danh sach doi tuong                          *\n");
+	printf("* 3.Xem danh sach doi tuong                               *\n");
+	printf("* 4.Sap xep Obj theo ten                                   *\n");
 	printf("* 0.Thoat chuong trinh			                  *\n");
 	printf("***************************End*****************************\n");
 }

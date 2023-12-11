@@ -123,11 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Array\Array1D\Mang1ChieuSoNguyen.h" />
+    <ClInclude Include="Array\Array1D\Array1d.h" />
     <ClInclude Include="Array\Array2D\Array2D.h" />
     <ClInclude Include="Customer\CustomerList.h" />
-    <ClInclude Include="MangSV\Mang1Chieu_SV.h" />
     <ClInclude Include="MixedArray.h" />
+    <ClInclude Include="Object\Object.h" />
     <ClInclude Include="PhanSo\PhanSo.h" />
     <ClInclude Include="String\String.h" />
   </ItemGroup>
@@ -153,13 +153,13 @@
     <ClCompile Include="mainMixedArray.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
     </ClCompile>
-    <ClCompile Include="MangSV\mainMang1Chieu_Sv.cpp">
-      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
-    </ClCompile>
-    <ClCompile Include="MangSV\Mang1Chieu_SV.cpp">
-      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
-    </ClCompile>
     <ClCompile Include="MixedArray.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="Object\mainObject.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
     </ClCompile>
     <ClCompile Include="PhanSo\mainPhanSo.cpp">

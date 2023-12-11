@@ -1,27 +1,26 @@
-#include"Mang1Chieu_SV.h"
+#include"Object.h"
 
 int main()
 {
-	const char *fi = "input-DanhSachSV.txt";
-	const char *fo = "output-DanhSachSV.txt";
-	Object *a = NULL;
-	int n, luachon, result;
+	const char* fi = "input-DanhSachSV.txt";
+	const char* fo = "output-DanhSachSV.txt";
+	Object* a = NULL;
+	int n, choose = 1, result;
 	char pMSSV[15], pten[10];
 	do
 	{
 		menu();
 		printf("Nhap lua chon bai muon lam: ");
-		scanf("%d", &luachon);//
-		fixScanf();
-		if (luachon < 0 || luachon>10)
-		{
-			printf("Khong co bai muon lam!!\n");
-		}
-		switch (luachon)
+		scanf("%d", &choose);
+		if (!scanf("%d", &choose))
+			choose = -1;
+			fixScanf();
+			
+		switch (choose)
 		{
 		case 1:
 			setArrayInfor(a, n);
-			getArrayInfor(a, n);
+				getArrayInfor(a, n);
 			break;
 		case 2:
 			readFile(fi, a, n);
@@ -33,7 +32,7 @@ int main()
 			getArrayInfor(a, n);
 			break;
 		case 4:
-			if (a==NULL)
+			if (a == NULL)
 			{
 				printf("Mang SV chua duoc khoi tao!!\n(Hay chon option 1 2 )\n");
 
@@ -44,8 +43,11 @@ int main()
 			break;
 		case 0:
 			return 0;
+		default:
+				printf("Khong co bai muon lam!!\n");
+				break;
 		}
-	} while (luachon >= 0 && luachon <= 10);
+	} while (choose >= 0 && choose <= 10);
 	free(a);
 	_getch();
 }

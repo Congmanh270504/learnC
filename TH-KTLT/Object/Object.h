@@ -1,5 +1,5 @@
-#ifndef Mang1Chieu_SV_h
-#define Mang1Chieu_SV_h
+#ifndef Object_h
+#define Object_h
 
 #include<stdio.h>
 #include<conio.h>

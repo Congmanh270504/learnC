@@ -16,9 +16,6 @@
     <Filter Include="Source Files\Arrray">
       <UniqueIdentifier>{5d71f41b-59b4-401c-b431-bf793b552daf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ArraySV">
-      <UniqueIdentifier>{f54f7471-398d-4d10-955f-6901e1e941ba}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\FracArray">
       <UniqueIdentifier>{7d25ae3f-5bd2-4625-9409-f79c6ebb1a92}</UniqueIdentifier>
     </Filter>
@@ -43,11 +40,11 @@
     <Filter Include="Source Files\Arrray\Array2D\Nomal">
       <UniqueIdentifier>{93df77ac-8679-4143-9c9c-eb6d5bb9c0e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{f54f7471-398d-4d10-955f-6901e1e941ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MangSV\Mang1Chieu_SV.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PhanSo\PhanSo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -60,20 +57,17 @@
     <ClInclude Include="Array\Array2D\Array2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Array\Array1D\Mang1ChieuSoNguyen.h">
+    <ClInclude Include="String\String.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="String\String.h">
+    <ClInclude Include="Array\Array1D\Array1d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MangSV\mainMang1Chieu_Sv.cpp">
-      <Filter>Source Files\ArraySV</Filter>
-    </ClCompile>
-    <ClCompile Include="MangSV\Mang1Chieu_SV.cpp">
-      <Filter>Source Files\ArraySV</Filter>
-    </ClCompile>
     <ClCompile Include="PhanSo\mainPhanSo.cpp">
       <Filter>Source Files\FracArray</Filter>
     </ClCompile>
@@ -112,6 +106,12 @@
     </ClCompile>
     <ClCompile Include="Array\Array2D\mainArray2D.cpp">
       <Filter>Source Files\Arrray\Array2D\Nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\mainObject.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>Source Files\Object</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -11,6 +11,7 @@
 #include<time.h>
 
 void menu();
+void fixScanf();
 
 void nhapSoNguyenDuong(int &n);
 void soLuongPhanTu(int &n);
