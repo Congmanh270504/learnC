@@ -60,7 +60,7 @@
     <ClInclude Include="String\String.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Array\Array1D\Array1d.h">
+    <ClInclude Include="Array\Array1D\Array1D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Object\Object.h">
@@ -86,10 +86,10 @@
     <ClCompile Include="mainMixedArray.cpp">
       <Filter>Source Files\MixedArray</Filter>
     </ClCompile>
-    <ClCompile Include="Array\Array1D\mainMang1ChieuSoNguyen.cpp">
+    <ClCompile Include="Array\Array1D\mainArray1D.cpp">
       <Filter>Source Files\Arrray\Array1D</Filter>
     </ClCompile>
-    <ClCompile Include="Array\Array1D\Mang1ChieuSoNguyen.cpp">
+    <ClCompile Include="Array\Array1D\Array1D.cpp">
       <Filter>Source Files\Arrray\Array1D</Filter>
     </ClCompile>
     <ClCompile Include="test.cpp">

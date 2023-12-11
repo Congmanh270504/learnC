@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Array\Array1D\Array1d.h" />
+    <ClInclude Include="Array\Array1D\Array1D.h" />
     <ClInclude Include="Array\Array2D\Array2D.h" />
     <ClInclude Include="Customer\CustomerList.h" />
     <ClInclude Include="MixedArray.h" />
@@ -132,10 +132,10 @@
     <ClInclude Include="String\String.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Array\Array1D\mainMang1ChieuSoNguyen.cpp">
+    <ClCompile Include="Array\Array1D\mainArray1D.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
     </ClCompile>
-    <ClCompile Include="Array\Array1D\Mang1ChieuSoNguyen.cpp">
+    <ClCompile Include="Array\Array1D\Array1D.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
     </ClCompile>
     <ClCompile Include="Array\Array2D\Array2D.cpp">
